@@ -12505,8 +12505,22 @@ margin-bottom: -1px;
   
   -gtk-icon-transform:scale(0.72);}
 
-
-
+/************Xfce panel tweak********/
+.xfce4-panel.panel {
+  background-color: #f3f3f3;
+  color: #DADADA; }
+  .xfce4-panel.panel button.flat, .xfce4-panel.panel button.sidebar-button {
+    color: #DADADA;
+    background-color: rgba(52, 52, 52, 0);
+    border-radius: 0;
+    border: none; }
+    .xfce4-panel.panel button.flat:hover, .xfce4-panel.panel button.sidebar-button:hover {
+      border: none;
+      background-color: #68a7f7; }
+    .xfce4-panel.panel button.flat:active, .xfce4-panel.panel button.sidebar-button:active, .xfce4-panel.panel button.flat:checked, .xfce4-panel.panel button.sidebar-button:checked {
+      color: #4095ff;
+      border: none;
+      background-color: #4095ff; }
 
 
 
